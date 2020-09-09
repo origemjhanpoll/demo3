@@ -7,10 +7,10 @@ export default function App(props) {
   const [value, setValue] = useState(0);
   return (
     <View style={styles.container}>
+      <StatusBar style="auto" />
       <View style={styles.card}>
         <Text style={{ fontSize: 34, textAlign: "center" }}>{0}</Text>
       </View>
-      <StatusBar style="auto" />
       <C.Slider />
     </View>
   );
